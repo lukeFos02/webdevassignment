@@ -1,0 +1,83 @@
+#container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+  max-height: 1080px;
+  text-align: center;
+}
+
+#content {
+  display: flex;
+}
+
+#nav ul li a {
+  color: rgb(242, 169, 3);
+  text-decoration: none;
+  font-size: larger;
+}
+#nav ul li {
+  display: inline;
+  padding: 25px;
+}
+
+#leftCol {
+  display: flex;
+  background-color: rgb(81, 62, 13);
+  font-size: large;
+  max-width: 275px;
+  min-width: 275px;
+  text-align: left;
+  visibility: visible;
+  position: relative;
+}
+
+#leftCol ul li {
+  list-style: none;
+  padding-bottom: 45px;
+}
+
+#aboutUsText {
+  padding-left: 7px;
+  text-align: left;
+  font-size: larger;
+}
+
+#findUsText {
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+  padding-left: 300px;
+}
+
+.infoList {
+  text-align: left;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.left {
+  text-align: left;
+  padding-left: 7px;
+}
+
+.table {
+  display: inline;
+}
+
+.leftColBtn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: rgb(81, 62, 13);
+  outline: none;
+  border: none;
+  visibility: hidden;
+}
+
+#facilitiesImages {
+  width: 400px;
+}

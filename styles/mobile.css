@@ -1,0 +1,164 @@
+#container {
+  width: 100%;
+}
+
+#content {
+  display: flex;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.topRow {
+  display: flex;
+  background-color: rgb(81, 62, 13);
+  max-width: 100%;
+}
+
+#nav ul li {
+  padding: 2px;
+  list-style: none;
+}
+
+#nav ul li a {
+  color: rgb(242, 169, 3);
+  text-decoration: none;
+  font-size: small;
+  text-align: center;
+}
+
+#leftCol {
+  display: flex;
+  background-color: rgb(81, 62, 13);
+  max-width: 45%;
+  text-align: left;
+  position: fixed;
+  visibility: hidden;
+}
+
+#leftCol ul li {
+  list-style: none;
+  padding-bottom: 25px;
+  padding-right: 5px;
+  margin: auto;
+}
+
+#leftCol ul li a {
+  color: rgb(242, 169, 3);
+  text-align: left;
+  text-decoration: none;
+}
+
+#rightCol {
+  max-width: 100%;
+  text-align: center;
+}
+
+#aboutUsText {
+  padding-left: 7px;
+  text-align: left;
+}
+
+#findUsText {
+  text-align: right;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.infoHeader {
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.infoList {
+  text-align: left;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.left {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.table {
+  display: inline;
+  max-width: 45%;
+}
+
+.leftColBtn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: rgb(81, 62, 13);
+  outline: none;
+  border: none;
+  visibility: visible;
+}
+
+#leftColVisible {
+  display: flex;
+  background-color: rgb(81, 62, 13);
+  max-width: 45%;
+  text-align: left;
+  position: fixed;
+  visibility: visible;
+}
+
+#leftColVisible ul li {
+  list-style: none;
+  padding-bottom: 25px;
+  padding-right: 5px;
+  margin: auto;
+}
+
+#leftColVisible ul li a {
+  color: rgb(242, 169, 3);
+  text-align: left;
+  text-decoration: none;
+}
+
+.leftColBtn span {
+  display: block;
+  width: 27px;
+  height: 3px;
+  background-color: rgb(242, 169, 3);
+  position: absolute;
+  top: 15px;
+}
+
+.leftColBtn span::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(242, 169, 3);
+}
+
+.leftColBtn span::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(242, 169, 3);
+}
+
+#facilitiesImages {
+  width: 98%;
+}
+
+footer {
+  text-align: center;
+}
